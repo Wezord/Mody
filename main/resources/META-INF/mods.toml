@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[58,)"
+license="MIT"
+
+[[mods]]
+modId="mody"
+version="1.0.0"
+displayName="Mody"
+description="Forge 1.21.8 example mod."
+
+[[dependencies.mody]]
+modId="forge"
+mandatory=true
+versionRange="[58,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mody]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.8,1.22)"
+ordering="NONE"
+side="BOTH"
